@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.18/libexec/bin/yarn.js add --exact --cwd /Users/krazy_kev/Documents/work/composition/composition react react-dom next
+
+PATH: 
+  /var/folders/dw/t31qjh317rqcxgx3k2rxwzsm0000gp/T/yarn--1665400579387-0.7439250572445422:/Users/krazy_kev/.config/yarn/global/node_modules/.bin:/Users/krazy_kev/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/opt/php@7.4/bin:/usr/local/opt/php@7.4/bin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/Users/krazy_kev/Library/Caches/Yarn/v6/npm-@next-swc-darwin-x64-12.3.1-6947b39082271378896b095b6696a7791c6e32b1-integrity/node_modules/@next/swc-darwin-x64/.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "composition",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
